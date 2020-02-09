@@ -30,7 +30,7 @@ namespace Globalization
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddLocalization(options => options.ResourcesPath = "Resources");
+            services.AddLocalization(options => options.ResourcesPath = Configuration["Resources"]);
 
             services.AddMvc(opt => opt.EnableEndpointRouting = false)
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
@@ -57,15 +57,7 @@ namespace Globalization
                 new CultureInfo("ru-RU"),
                 new CultureInfo("en-US")
             };
-
-            app.UseRequestLocalization(new RequestLocalizationOptions
-            {
-                DefaultRequestCulture = new RequestCulture("en-US"),
-                // Formatting numbers, dates, etc.
-                SupportedCultures = supportedCultures,
-                // UI strings that we have localized.
-                SupportedUICultures = supportedCultures
-            });
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
@@ -95,13 +87,6 @@ namespace Globalization
                     });
                 });
             });
-
-            // app.UseEndpoints(endpoints =>
-            // {
-            //     endpoints.MapControllerRoute(
-            //         name: "default",
-            //         pattern: "{culture=en-US}/{controller=Home}/{action=Index}/{id?}");
-            // });
         }
     }
 }

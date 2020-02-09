@@ -36,9 +36,6 @@ D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.csproj.CopyCom
 D:\MyProjects\Globalization\bin\Debug\netcoreapp3.0\en-US\Globalization.resources.dll
 D:\MyProjects\Globalization\bin\Debug\netcoreapp3.0\ru-RU\Globalization.resources.dll
 D:\MyProjects\Globalization\bin\Debug\netcoreapp3.0\tr-TR\Globalization.resources.dll
-D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.Resources.SharedLabel.en-US.resources
-D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.Resources.SharedLabel.ru-RU.resources
-D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.Resources.SharedLabel.tr-TR.resources
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.csproj.GenerateResource.cache
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\en-US\Globalization.resources.cs
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\en-US\Globalization.resources.dll
@@ -46,3 +43,6 @@ D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\ru-RU\Globalization.resource
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\ru-RU\Globalization.resources.dll
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\tr-TR\Globalization.resources.cs
 D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\tr-TR\Globalization.resources.dll
+D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.SharedLabel.en-US.resources
+D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.SharedLabel.ru-RU.resources
+D:\MyProjects\Globalization\obj\Debug\netcoreapp3.0\Globalization.SharedLabel.tr-TR.resources
